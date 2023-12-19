@@ -1,9 +1,10 @@
 """In this program we have to find function that returns the largest palindrome from the product of
  two n-digit numbers where both numbers are inside a range."""
 
+
 def solver(n, p=None, q=None):
     """this is the function that returns the largest palindrome from the product of
- two n-digit numbers where both numbers are inside a range. """
+    two n-digit numbers where both numbers are inside a range."""
     mylist = []
     if p is None:
         p = 10 ** (n - 1)
